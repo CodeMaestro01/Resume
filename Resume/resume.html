@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RESUME - Home</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background-image: url('https://image.slidesdocs.com/responsive-images/slides/0-blue-resume-career-planning-profession-cv-personal-simple-powerpoint-background_924a706250__960_540.jpg');
+                background-size: cover;
+                background-position: right;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            h1{
+                font-size: 100px;
+                position: absolute;
+                top: 100px;
+                left: 450px;
+                font-family:'Times New Roman', Times, serif;
+            }
+            .color-changing{
+                animation: changeColor 5s infinite;
+            }
+            @keyframes changeColor {
+                0% { color: red; } 
+                33% { color: rgb(22, 22, 109); } 
+                66% { color: rgb(184, 184, 14); } 
+                100% { color: red; } 
+            }
+            button{
+                font-size: 35px;
+                position: absolute;
+                cursor: pointer;
+                top: 700px;
+                left: 450px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+                border: none;
+                background-color: transparent;
+            }
+            a{
+                text-decoration: none;
+                color: blueviolet;
+            }
+            .blinking-text{
+                animation: blink 2s infinite;
+            }
+            @keyframes blink {
+                0% { opacity: 1.0; }
+                50% { opacity: 0.0; }
+                100% { opacity: 1.0; }
+            }
+            .blinking-text:hover {
+                animation: none; /* Stop blinking */
+                color: blueviolet; /* Change color when stopped */
+            }
+            p{
+                position: absolute;
+                top: 300px;
+                left: 450px;
+                font-size: 30px;
+            }
+            h2{
+                position: absolute;
+                top: 550px;
+                left: 55px;
+                color: whitesmoke;
+            }
+            img{
+                position: absolute;
+                top: 220px;
+                left: 35px;
+            }
+            .github{
+                position: absolute;
+                left: 190px;
+                top: 400px;
+            }
+            .insta{
+                position: absolute;
+                left: 110px;
+                top: 400px;
+            }
+            .linkedin{
+                position: absolute;
+                left: 35px;
+                top: 403px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="github">
+            <a href="https://github.com/CodeMaestro01" target="_blank">
+                <img src="github.png" alt="GitHub" width="50" height="50">
+            </a>
+        </div>
+        <div class="insta">
+            <a href="https://www.instagram.com/___yup__itz___me/" target="_blank">
+                <img src="insta1.png" alt="Instagram" width="55" height="55">
+            </a>  
+        </div>
+        <div class="linkedin">
+            <a href="www.linkedin.com/in/vaishnav-p-nair-057435289" target="_blank">
+                <img src="linkedin.png" alt="Linkedin" width="50" height="50">
+            </a>  
+        </div>
+        <img src="Mine.png" alt="Hi">
+        <h1><span class="color-changing">RESUME</span></h1>
+        <p>Energetic and enthusiastic student practicing BTech in CSE.Passionate about 
+        <br>Cyber Security and Web Development, I am eager to kick-start my career and
+        <br> make a positive impact in the field of Computer Science. Possessing a strong
+        <br> foundation in Competitive Programming and Web Development, I am seeking 
+        <br>opportunities to learn and grow while contributing to the success of a 
+        <br>forward-thinking organization. With a proactive attitude and a willingness to 
+        <br>take on new challenges, I am excited to bring my fresh perspective and dedication 
+        <br>to your company or organization.</p> 
+        <button class="blinking-text"><a href="http://127.0.0.1:5500/details.html" target="_blank">MORE ABOUT ME</a></button>
+        <h2>VAISHNAV P NAIR</h2>
+    </body>
+</html>
